@@ -1,0 +1,47 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules directory (for Node.js projects)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files from editors
+*.swp
+*.swo
+*~
+# Ignore files from JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+# Ignore files from Visual Studio Code
+.vscode/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+
+# Ignore compiled files
+*.o
+*.obj
+*.class
+*.so
+*.dll
+*.exe
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore environment and config files
+.env
+*.config
+
